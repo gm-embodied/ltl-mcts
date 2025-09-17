@@ -115,9 +115,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 For questions, please open a GitHub issue or contact:
 **Chenyang Wang** (Corresponding author) – [chenyangwang@ieee.org](mailto:chenyangwang@ieee.org)
 
-```
-
-
-
-要不要我帮你把 **Scenario 1 和 2 的 README 精简一下**（比如减少重复的安装/依赖部分，放到顶层 README），让场景内 README 主要聚焦在 **任务定义 + 配置参数 + 实验结果**？
-```
