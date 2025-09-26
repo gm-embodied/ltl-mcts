@@ -4,7 +4,7 @@ This repository contains the **official implementation** of our paper:
 
 > **Non-Myopic Active Perception for LTL-Specified Multi-Target Tracking**  
 > Zhen Tian, Zhou Zhou, Lei Xie, Xia Hua, Chenyang Wang*, F. Richard Yu  
-> *ICASSP 2025 (to appear), arXiv preprint available soon*
+> *Under Review at ICASSP 2026*
 
 ---
 
@@ -23,15 +23,13 @@ This repository provides reproducible experiments for two scenarios:
 
 ## 📂 Repository Structure
 ```
-
 gm-embodied-ltl-mcts-2025/
-├── ltl\_mcts\_scenario1\_persistent\_surveillance/   # Scenario 1: Persistent Surveillance
-├── ltl\_mcts\_scenario2\_patrol\_respond/            # Scenario 2: Patrol and Respond
+├── ltl_mcts_scenario1_persistent_surveillance/   # Scenario 1: Persistent Surveillance
+├── ltl_mcts_scenario2_patrol_respond/            # Scenario 2: Patrol and Respond
 ├── LICENSE
 ├── requirements.txt
 └── README.md   # (this file)
-
-````
+```
 
 Each scenario folder includes:
 - Source code (`src/`)
@@ -47,10 +45,9 @@ Each scenario folder includes:
 ```bash
 git clone https://github.com/gm-embodied/ltl-mcts-2025.git
 cd ltl-mcts-2025
-````
+```
 
 2. Install dependencies:
-
 ```bash
 pip install -r requirements.txt
 ```
@@ -60,20 +57,18 @@ pip install -r requirements.txt
 ## 🚀 Usage
 
 ### Scenario 1: Persistent Surveillance
-
 ```bash
 cd ltl_mcts_scenario1_persistent_surveillance
 python experiments/run_experiment.py
 ```
 
 ### Scenario 2: Patrol and Respond
-
 ```bash
 cd ltl_mcts_scenario2_patrol_respond
 python experiments/run_experiment.py
 ```
 
-See each scenario’s README for detailed configuration and expected results.
+See each scenario's README for detailed configuration and expected results.
 
 ---
 
@@ -91,15 +86,16 @@ Plots and metrics (success rate, OSPA error, planning time, etc.) are automatica
 If you use this code in your research, please cite:
 
 ```bibtex
-@inproceedings{tian2025ltlmcts,
+@inproceedings{tian2026ltlmcts,
   title={Non-Myopic Active Perception for LTL-Specified Multi-Target Tracking},
   author={Tian, Zhen and Zhou, Zhou and Xie, Lei and Hua, Xia and Wang, Chenyang and Yu, F. Richard},
   booktitle={ICASSP},
-  year={2025}
+  year={2026},
+  note={Under Review}
 }
 ```
 
-The arXiv preprint will be available soon.
+**Note**: This paper is currently under review at ICASSP 2026. The arXiv preprint will be made available upon acceptance.
 
 ---
 
@@ -113,4 +109,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 For questions, please open a GitHub issue or contact:
 **Chenyang Wang** (Corresponding author) – [chenyangwang@ieee.org](mailto:chenyangwang@ieee.org)
-
